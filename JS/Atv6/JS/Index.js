@@ -1,3 +1,5 @@
+selecionarUsuarios();
+
 document.querySelector(`#salvar`).addEventListener('click', () => {
     let nome = document.querySelector(`#exampleInputName`).value;
     let genero = document.querySelector(`input[name=gender]:checked`).value;
@@ -76,6 +78,18 @@ function inserir(json){
 sessionStorage.setItem('usuarios',JSON.stringify(usuarios));
 }
 
+
+function selecionarUsuarios(){
+    let usuarios = [];
+
+    if (sessionStorage.getItem('usuarios')){
+        usuarios = JSON.parse(sessionStorage.getItem('usuarios'));
+    }
+
+    usuarios.forEach(usuario => {
+        addlinha(usuario);
+    });
+}
 
 
 
