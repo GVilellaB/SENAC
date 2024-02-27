@@ -1,0 +1,41 @@
+nav ul{
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.imgnormal {
+    height: 15%;
+    width: 15%;
+}
+
+.imglarge {
+    height: 75%;
+    width: 75%;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgb(183, 183, 245);
+    text-decoration: none;
+    text-align: center;
+}
+
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    
+}
+
+iframe{
+    border: none;
+    position: fixed;
+    width:80%;
+    height:80%;
+}
+
+.divframe{
+    display: flex;
+}

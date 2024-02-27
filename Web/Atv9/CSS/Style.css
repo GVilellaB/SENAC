@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8d9e3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    background-image: url('../IMG/backg.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+footer {
+    background-color: #f8d9e3;
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo-principal {
+    color: #e44d26;
+    /* Cor personalizada para o título principal */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+#bem-vindo {
+    text-align: center;
+    color: #e44d26;
+    /* Cor personalizada para o título de boas-vindas */
+}
+
+.paragrafo-introducao {
+    text-align: center;
+}
+
+img {
+    height: 15rem;
+    width: 20rem;
+}
+section h2, p{
+    background-color: #f8d9e3;
+}

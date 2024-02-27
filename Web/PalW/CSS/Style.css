@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    margin: 0.1rem;
+}
+.card{
+    width: 18rem;
+    height: 9rem;
+    border: 0.2rem solid black;
+    border-top-left-radius: 50px ;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.card-body, .list-group{
+    border: 0.2rem solid black;
+}
+.list-group-title{
+    list-style: none;
+}
