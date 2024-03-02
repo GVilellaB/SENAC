@@ -1,0 +1,57 @@
+h1 {
+    color: rgb(135, 216, 155);
+}
+
+div {
+    background-color: #000;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        color: rgb(135, 216, 155);
+    }
+    
+    div {
+        background-color: rgb(2, 73, 20);
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        color: rgb(218, 134, 176);
+    }
+
+    div {
+        background-color: rgb(131, 7, 65);
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        color: rgb(152, 134, 218);
+    }
+
+    div {
+        background-color: rgb(34, 7, 131);
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        color: red;
+    }
+
+    div {
+        background-color: #000;
+    }
+}
+
+@media (min-width: 1400px) {
+    h1 {
+        color: #fff;
+    }
+
+    div {
+        background-color: rgb(6, 71, 6);
+    }
+}
