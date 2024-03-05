@@ -1,0 +1,34 @@
+/*LAYOUt*/
+body{
+    display: grid;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+    background-color: brown;
+    height: 10vh;
+}
+#titlenav{
+    color: white;
+    margin-left: 50px;
+}
+#navlist{
+    color: white;
+}
+li{
+    margin-right: 25px;
+}
+
+#mainpagecontent{
+    height: 73.5vh;
+}
+
+footer{
+    height: 15vh;
+}
+
+ul{
+   padding: 0;
+   list-style: none;
+}
