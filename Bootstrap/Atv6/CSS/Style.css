@@ -9,26 +9,41 @@ header{
     background-color: brown;
     height: 10vh;
 }
+
 #titlenav{
     color: white;
     margin-left: 50px;
 }
+
 #navlist{
     color: white;
 }
-li{
+
+.navli{
     margin-right: 25px;
 }
 
 #mainpagecontent{
-    height: 73.5vh;
+    height: 67.5vh;
 }
 
 footer{
-    height: 15vh;
+    height: 20vh;
 }
 
 ul{
    padding: 0;
    list-style: none;
+}
+
+h3{
+    color: white;
+}
+#footerlink1, #footerlink2{
+    justify-content: center;
+}
+#footerfooter{
+    display: flex;
+    justify-content: center;
+    color: white;
 }
