@@ -1,17 +1,27 @@
 /*LAYOUt*/
 header{
+    display: grid;
     height: 24vh;
 }
+
+#navheader{
+    display: flex;
+    align-items: end;
+}
+
 #menu-left, #content-right{
     height: 74.5vh;
 }
+
 .container{
     margin-top: 0.5vh;
     margin-bottom: 0.5vh;
 }
+
 .dropdown{
     margin-top: 0.1rem;
 }
+
 .btn, .dropdown-menu{
     width: 19rem;
 }
