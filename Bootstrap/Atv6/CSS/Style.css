@@ -11,6 +11,7 @@ header{
 }
 
 #titlenav{
+    font-family: "Lobster", sans-serif;
     color: white;
     margin-left: 50px;
 }
@@ -24,7 +25,7 @@ header{
 }
 
 #mainpagecontent{
-    height: 67.5vh;
+    min-height: 67.5vh;
 }
 
 footer{
@@ -39,11 +40,17 @@ ul{
 h3{
     color: white;
 }
-#footerlink1, #footerlink2{
-    justify-content: center;
-}
+
 #footerfooter{
     display: flex;
     justify-content: center;
     color: white;
+}
+#imghome{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+img{
+    margin: 20px;
+    width: 200px;
 }
