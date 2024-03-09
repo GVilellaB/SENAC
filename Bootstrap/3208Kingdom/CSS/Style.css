@@ -1,10 +1,18 @@
 body{
-    display: grid;
+    display: grid; 
+}
+
+#allcontent,#headerdiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainbackgroundimg{    
+    background-image:url("../IMG/mainrok.jpg");
+    background-repeat: no-repeat;
 }
 
 header{
-    padding: 0;
-    margin: 0;
     background-color: black;
     min-height: 10vh;
 }
@@ -21,4 +29,14 @@ header{
 
 #navlist{
     justify-content: space-between;
+}
+
+#leftcontentmain{      
+    margin: 0px;
+    padding: 0px;
+    min-height: 80vh;
+}
+
+footer{
+    height: 10vh;
 }
