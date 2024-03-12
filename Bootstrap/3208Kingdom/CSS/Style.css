@@ -1,42 +1,94 @@
-body{
-    display: grid; 
+body {
+    display: grid;
 }
 
-#allcontent,#headerdiv{
+#allcontent,
+#headerdiv {
     margin: 0px;
     padding: 0px;
 }
 
-#mainbackgroundimg{    
-    background-image:url("../IMG/mainrok.jpg");
+#mainbackgroundimg {
+    background-image: url("../IMG/mainrok.jpg");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+
 }
 
-header{
+header {
     background-color: black;
     min-height: 10vh;
+    position: fixed;
 }
 
-#homeicon{
+#homeicon {
     width: 50px;
 }
 
-#homebtn{    
+#homebtn {
     font-size: 20px;
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-#navlist{
+#navlist {
     justify-content: space-between;
 }
 
-#leftcontentmain{      
+#leftcontentmain {
     margin: 0px;
     padding: 0px;
     min-height: 80vh;
+
+    display: grid;
+
 }
 
-footer{
+#mainwelcome{
+    color: white;
+    justify-self: center;
+    margin-top: 450px;
+}
+
+#mainbtn {
+    border-radius: 50%;
+    background-color: goldenrod;
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    justify-self: center;
+}
+
+#ranking{
+    background-color: black;
+    align-items: center;
+}
+
+#top1,#top2, #top3{
+    border-radius: 50%;
+    margin-top: 5px;
+    border: 1px solid white;
+    
+}
+#top1{
+    width: 250px;
+    height: 250px;
+}
+
+#top2{
+    width: 200px;
+    height: 200px;
+}
+
+#top3{
+    width: 150px;
+    height: 150px;
+}
+
+footer {
     height: 10vh;
 }
