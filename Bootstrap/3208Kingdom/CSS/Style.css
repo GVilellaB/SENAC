@@ -2,25 +2,34 @@ body {
     display: grid;
 }
 
-#allcontent,
-#headerdiv {
-    margin: 0px;
-    padding: 0px;
+#allcontent{
+    padding: 0;
+}
+nav{
+    margin-right: 10px ;
 }
 
 #mainbackgroundimg {
     background-image: url("../IMG/mainrok.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-attachment: fixed;
+    
 
 
 }
 
 header {
+
+    padding: 0;
     background-color: black;
     min-height: 10vh;
-    position: fixed;
+    
+}
+
+#headerdiv{
+    margin: 0;
+    padding: 10px;
+    background-color: black;
 }
 
 #homeicon {
@@ -37,9 +46,7 @@ header {
     justify-content: space-between;
 }
 
-#leftcontentmain {
-    margin: 0px;
-    padding: 0px;
+#leftcontentmain {    
     min-height: 80vh;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -101,4 +108,25 @@ header {
 
 footer {
     height: 10vh;
+}
+/*IMMIGRATION TAB*/
+
+#formdiv{    
+    width: 500px;
+    height: 150px;
+}
+#form{    
+    margin-top: 10px;
+    border: 5px solid black;
+}
+
+#formbtn{
+    margin-top: 10px ;
+}
+
+#Immigrationcontent{
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    min-height: 80vh;
 }
