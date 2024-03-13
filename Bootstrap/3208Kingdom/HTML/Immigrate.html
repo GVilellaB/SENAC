@@ -37,23 +37,27 @@
                 </nav>
             </header>
         </div>
-        <div id="Immigrationcontent">
-            <div id="formdiv">
-                <form class="text-white bg-black">
-                    <div class="row g-3">
+        <div id="Immigrationcontent" class="grid justify-content-center">
+            <div id="formdiv" class="d-flex">
+                <form class="d-flex flex-column text-white bg-black justify-content-around">
+                    <div id="upperformdiv" class="row g-3">
                         <div class="col-sm-5">
-                            <label for="exampleInput ID" class="form-label">User ID:</label>
+                            <label for="ID" class="form-label">*User ID:</label>
                             <input type="text" name="UserID" class="form-control" id="UserID">
                         </div>
                         <div class="col-sm-5">
-                            <label for="exampleInput Nick" class="form-label">Nick:</label>
+                            <label for="Nick" class="form-label">*Nick:</label>
                             <input type="text" name="Nick" class="form-control" id="Nick">
                         </div>
                     </div>
-                    <div class="row g-3">
+                    <div id="lowerformdiv" class="row g-3">
                         <div class="col-sm-5">
-                            <label for="exampleInput Discord" class="form-label">Discord Name:</label>
+                            <label for="Discord" class="form-label">*Discord Name:</label>
                             <input type="text" name="DiscordName" class="form-control" id="DiscordName">
+                        </div>
+                        <div class="col-sm-5">
+                            <label for="Recruiter" class="form-label">Recruiter's Name:</label>
+                            <input type="text" name="RecruiterName" class="form-control" id="RecruiterName">
                         </div>
                     </div>
                     <button id="formbtn" type="submit" class="btn btn-dark">Send Registration</button>

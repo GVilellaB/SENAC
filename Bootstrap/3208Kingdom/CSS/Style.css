@@ -47,7 +47,7 @@ header {
 }
 
 #leftcontentmain {    
-    min-height: 80vh;
+    min-height: auto;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -111,22 +111,48 @@ footer {
 }
 /*IMMIGRATION TAB*/
 
-#formdiv{    
-    width: 500px;
-    height: 150px;
-}
-#form{    
-    margin-top: 10px;
-    border: 5px solid black;
-}
-
-#formbtn{
-    margin-top: 10px ;
-}
-
 #Immigrationcontent{
+    background-color: black;
     display: grid;
     margin: 0px;
     padding: 0px;
     min-height: 80vh;
+    background-image: url("../IMG/immigrationmain.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
+/*IMMIGRATION FORM*/
+form{
+    border: 3px solid goldenrod;
+    padding: 30px; 
+    border-radius: 25%;
+}
+
+#formdiv{      
+    align-self: center;
+    width: 550px;  
+    height: 400px;  
+    padding: 10px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;     
+}
+
+#upperformdiv,#lowerformdiv{
+    justify-content: center;
+}
+
+#UserID,#Nick,#DiscordName,#RecruiterName{
+    border: 3px solid goldenrod;
+}
+
+#formbtn{
+    margin-top: 10px;
+    border: 2px solid goldenrod;
+    width: 200px;
+    align-self: center;
+}
+
+
+
